@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "1612618-4")(type "KiCad")(uri "${KIPRJMOD}/components/1612618-4")(options "")(descr ""))
+  (lib (name "USB4105-GF-A")(type "KiCad")(uri "${KIPRJMOD}/components/USB4105-GF-A")(options "")(descr ""))
+)

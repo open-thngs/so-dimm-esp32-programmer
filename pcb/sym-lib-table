@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "1612618-4")(type "Legacy")(uri "${KIPRJMOD}/components/1612618-4/1612618-4.lib")(options "")(descr ""))
+  (lib (name "USB4105-GF-A")(type "Legacy")(uri "${KIPRJMOD}/components/USB4105-GF-A/USB4105-GF-A.lib")(options "")(descr ""))
+)
