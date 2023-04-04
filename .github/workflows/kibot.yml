@@ -119,7 +119,7 @@ jobs:
         run: | 
           curl -o Archivo.zip https://fonts.google.com/download?family=Archivo
           unzip Archivo.zip
-          cp static/Archivo/Archivo-SemiBold.ttf ~/.local/share/fonts
+          cp static/Archivo/Archivo-SemiBold.ttf /usr/local/share/fonts
           kibot -c kibot.yml -e ${{env.schema}} -b ${{env.board}} -d ${{env.dir}} -s run_erc,run_drc -v \
             board_black_top.svg board_black_bottom.svg
       - uses: actions/upload-artifact@v3.1.1
