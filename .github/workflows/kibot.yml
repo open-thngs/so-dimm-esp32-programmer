@@ -49,7 +49,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [ERC]
     container:
-      image: ghcr.io/inti-cmnb/kicad7_auto:latest
+      image: ghcr.io/inti-cmnb/kicad7_auto_full:dev
     steps:
       - uses: actions/checkout@v3
       - name: run kibot
@@ -115,7 +115,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [DRC]
     container:
-      image: ghcr.io/inti-cmnb/kicad7_auto_full:dev
+      image: ghcr.io/inti-cmnb/kicad7_auto:latest
     steps:
       - uses: actions/checkout@v3
       - name: run kibot
