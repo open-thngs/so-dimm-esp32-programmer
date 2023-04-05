@@ -1,4 +1,4 @@
-name: "Variants demo using GitHub actions and quick-start"
+name: "KiBot"
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -16,6 +16,11 @@ on:
   repository_dispatch:
     types: [run_qs_gha]
 
+env:
+  schema: "pcb/so-dimm-debugger-programmer.kicad_sch"
+  board: "pcb/so-dimm-debugger-programmer.kicad_pcb"
+  dir: .
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   quick:
@@ -31,7 +36,7 @@ jobs:
 
     - name: Run KiBot
       # v2_k6 for v1.5.1 has a permission problem
-      uses: INTI-CMNB/KiBot@v2_dk6
+      uses: INTI-CMNB/KiBot@v2_k7
       with:
         quickstart: YES
 
