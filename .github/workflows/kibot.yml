@@ -1,4 +1,4 @@
-name: "Variants demo using GitHub actions and quick-start"
+name: "KiBot CI"
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -7,12 +7,12 @@ on:
     paths:
       - '*.kicad_sch'
       - '*.kicad_pcb'
-      - '.github/workflows/kibot_action_quick_start.yml'
+      - '**/*kibot.yml'
   pull_request:
     paths:
       - '*.kicad_sch'
       - '*.kicad_pcb'
-      - '.github/workflows/kibot_action_quick_start.yml'
+      - '**/*kibot.yml'
   repository_dispatch:
     types: [run_qs_gha]
 
