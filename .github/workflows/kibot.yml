@@ -39,6 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/inti-cmnb/kicad7_auto:latest
+    needs: [ERC]
     steps:
       - uses: actions/checkout@v3
       - name: run kibot
