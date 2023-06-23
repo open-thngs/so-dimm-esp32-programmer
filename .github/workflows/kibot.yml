@@ -5,13 +5,13 @@ name: "KiBot CI"
 on:
   push:
     paths:
-      - '*.kicad_sch'
-      - '*.kicad_pcb'
+      - '**/*.kicad_sch'
+      - '**/*.kicad_pcb'
       - '**/*kibot.yml'
   pull_request:
     paths:
-      - '*.kicad_sch'
-      - '*.kicad_pcb'
+      - '**/*.kicad_sch'
+      - '**/*.kicad_pcb'
       - '**/*kibot.yml'
   repository_dispatch:
     types: [run_qs_gha]
