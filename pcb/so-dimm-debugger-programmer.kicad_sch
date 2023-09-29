@@ -5,7 +5,10 @@
   (paper "A4" portrait)
 
   (title_block
-    (date "2022-11-02")
+    (title "ESP-CM3 Programmer")
+    (date "2023-09-29")
+    (rev "REV.01")
+    (company "OPEN THINGS")
   )
 
   (lib_symbols
