@@ -3587,7 +3587,7 @@
     (property "Sheetfile" "usb-ports.kicad_sch")
     (property "Sheetname" "usb-ports")
     (path "/635549c8-9e1e-45a1-bff3-75384c92daf3/2819e8a7-af18-4801-aaf9-bb13074ec638")
-    (attr smd)
+    (attr through_hole)
     (fp_text reference "J6" (at -1.825 -8.135) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.015)))
       (tstamp d0ca522e-fc10-470d-a437-3b91336e8750)
@@ -4544,7 +4544,7 @@
     (property "Sheetfile" "usb-ports.kicad_sch")
     (property "Sheetname" "usb-ports")
     (path "/635549c8-9e1e-45a1-bff3-75384c92daf3/04cdccb7-c3dd-45c7-bcb0-126da5583af3")
-    (attr smd)
+    (attr through_hole)
     (fp_text reference "J7" (at -1.825 -8.135) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.015)))
       (tstamp 54ff7cee-b8dc-4500-8147-374103240816)
